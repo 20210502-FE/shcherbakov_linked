@@ -34,3 +34,199 @@ img {
 .button {
     text-align: center;
 }
+
+.wrapper {
+    width: 100%;
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*=============header=============*/
+
+.header {
+    width: 100%;
+    max-width: 1600px;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 106px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo__icon {
+    width: 23px;
+    height: 26px;
+}
+
+.header__logo__title {
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-left: 8px;
+    color: #247CC0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.header__nav {
+    width: 573px;
+    height: 23px;
+}
+
+.header__nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav li {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav a {
+    color: black;
+    font-size: 14px;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.nav__triangle {
+    width: 12px;
+    height: 23px;
+    color: black;
+    margin: 2px 0 0 8px;
+}
+
+.header__profile {
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 86px;
+}
+
+.header__profile__img-s {
+    width: 15px;
+    height: 15px;
+}
+
+.header__profile__img-b {
+    width: 35px;
+    height: 35px;
+}
+
+/*==============main__top-banner============*/
+
+.main__top-banner {
+    width: 100%;
+    height: 811px;
+    background-color: white;
+    display: flex;
+}
+
+.main__top-banner__left {
+    width: 555px;
+    height: 640px;
+}
+
+.top-banner__top-title {
+    width: 166px;
+    height: 28px;
+    color: #DD7C86;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 75px 0 3px 9px;
+}
+
+.top-banner__title-1 {
+    width: 470px;
+    height: 72px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 58px;
+    text-align: center;
+    background-color: #E9F2F9;
+    font-weight: bold;
+    color: #247CC0;
+    line-height: 1.2;
+}
+
+.top-banner__title-2 {
+    width: 530px;
+    height: 141px;
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    font-size: 59px;
+    margin: 0 0 29px 10px ;
+}
+
+.top-banner__text {
+    width: 515px;
+    height: 54px;
+    font-size: 21px;
+    color: #686E73;
+    margin: 0 0 36px 10px;
+}
+
+.top-banner__price__link a {
+    color: #ffffff;
+    width: 151px;
+    height: 58px;
+    background-color: #247CC0;
+    padding: 16px 35px;
+    margin-right: 31px;
+}
+
+.top-banner__price__new {
+    margin-right: 18px;
+}
+
+.top-banner__price__old {
+    color: #81868A;
+    text-decoration: line-through;
+}
+
+.top-banner__img {
+    width: 643px;
+    height: 611px;
+}
+
+.top-banner__company {
+    width: 1140px;
+    height: 237px;
+    position: absolute;
+    margin-top: 574px;
+    background-color: white;
+}
+
+.top-banner__company ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-banner__company li {
+    width: 163px;
+    height: 85px;
+}
+
